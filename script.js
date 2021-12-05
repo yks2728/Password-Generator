@@ -14,7 +14,7 @@ function writePassword() {
 
 
 
-function generatePassword(x, y){
+function generatePassword(x, y) {
 
   x = 8;
   y = 128;
