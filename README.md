@@ -1,3 +1,3 @@
 # Password-Generator
 
-## This is my Random Pasword Generator
+## This is my Random Password Generator
