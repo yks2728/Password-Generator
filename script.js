@@ -38,7 +38,7 @@ function generatePassword(x, y) {
   var getUppercase = uppercase[Math.floor(Math.random() * uppercase.length)]
   if (promptUppercase === "YES") {
     for (var i = 0; i < (math.ceil(promptLength / 4)); i++) {
-      console.log(getLowercase[i]);
+      console.log(getUppercase[i]);
     }
   }
 
