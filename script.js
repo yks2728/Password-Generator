@@ -14,14 +14,16 @@ function writePassword() {
 
 
 
-function generatePassword(x, y) {
 
-  x >= 8;
-  y <= 128;
+
+function generatePassword() {
+
+ 
 
 
   var promptLength = window.prompt('How many characters would you like in your password? Please enter a number between 8 and 128.');
-
+  
+  
 
   var promptLowercase = window.prompt('Would you like Lowercase letters in your password? Enter "YES" or "NO", to choose "yes" or "no".');
   var lowercase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
