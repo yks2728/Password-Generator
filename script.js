@@ -29,9 +29,6 @@ function generatePassword() {
     console.log(promptLength);
   }
  
-
-
-
   var promptLowercase = window.prompt('Would you like Lowercase letters in your password? Enter "YES" or "NO", to choose "yes" or "no".'); {
     console.log(characters.push(0));
   }
