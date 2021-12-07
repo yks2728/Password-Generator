@@ -25,8 +25,10 @@ function generatePassword() {
 
 
 
-  var promptLength = window.prompt('How many characters would you like in your password? Please enter a number between 8 and 128.');
-
+  var promptLength = window.prompt('How many characters would you like in your password? Please enter a number between 8 and 128.'); {
+    console.log(promptLength);
+  }
+ 
 
 
 
@@ -34,7 +36,7 @@ function generatePassword() {
     console.log(characters.push(0));
   }
   var lowercase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-  var getLowercase = lowercase[Math.floor(Math.random() * lowercase.length)]
+  var getLowercase = lowercase[Math.floor(Math.random() * lowercase.length)];
   if (promptLowercase === "YES") {
     for (var i = 8; i < (math.ceil(promptLength / 128)); i++) {
       console.log(getLowercase[i]);
@@ -46,7 +48,7 @@ function generatePassword() {
     console.log(characters.push(1));
   }
   var uppercase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-  var getUppercase = uppercase[Math.floor(Math.random() * uppercase.length)]
+  var getUppercase = uppercase[Math.floor(Math.random() * uppercase.length)];
   if (promptUppercase === "YES") {
     for (var i = 8; i < (math.ceil(promptLength / 128)); i++) {
       console.log(getUppercase[i]);
@@ -57,7 +59,7 @@ function generatePassword() {
     console.log(characters.push(2));
   }
   var specialcharacters = ['!', '@', '#', '$', '&', '*', '+', '_'];
-  var getSpecialcharacters = specialcharacters[Math.floor(Math.random() * specialcharacters.length)]
+  var getSpecialcharacters = specialcharacters[Math.floor(Math.random() * specialcharacters.length)];
   if (promptSpecialcharacters === "YES") {
     for (var i = 8; i < (math.ceil(promptLength / 128)); i++) {
       console.log(getSpecialcharacters[i]);
