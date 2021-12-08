@@ -56,10 +56,12 @@ function generatePassword() {
     characters.push(...numbers);
   }
   
-  
   for (var i = 0; i < promptLength; i++) {
     var randomNumber = Math.floor(Math.random() * characters.length);
     password = password + characters [randomNumber];
+  }
+  if (promptLowercase && promptUppercase && promptSpecialcharacters && promptNumbers == false) {
+    window.alert("Terminate the program");
   }
   return password;
 };
